@@ -15,8 +15,8 @@ be trusted.
 
 ## Dataset
 
-- **Source:** `premiums_with_life_style.xlsx` [ADJUST: add source if from Kaggle or a course]
-- **Size:** ~15,000 customer records [ADJUST if different]
+- **Source:** `premiums_with_life_style.xlsx` [
+- **Size:** ~10,000 customer records 
 - **Target variable:** `annual_premium_amount` (continuous, in local currency)
 - **Feature types:**
   - Numerical: age, number of dependants, income (level and lakhs),
@@ -40,8 +40,7 @@ be trusted.
 ### 2. Multicollinearity Check
 
 Ran Variance Inflation Factor (VIF) analysis on all numeric features.
-All VIF values under [ADJUST — fill in from your VIF output, if you have it],
-indicating no serious multicollinearity that would destabilize a linear
+All VIF values under 5 indicating no serious multicollinearity that would destabilize a linear 
 regression's coefficients.
 
 ### 3. Train / Test Split
