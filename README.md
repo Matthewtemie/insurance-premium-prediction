@@ -72,7 +72,7 @@ Beyond a single MSE number, I evaluated the models on:
 
 | Metric | Value |
 |--------|-------|
-| Test MSE | [ADJUST — fill in] |
+| Test MSE | 753999.8125 |
 | Extreme error rate (>10% off) | 7.2% |
 | Extreme errors: over-predictions | 168 |
 | Extreme errors: under-predictions | 45 |
